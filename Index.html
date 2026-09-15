@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kurd Keyboard Pro</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+}
+
+body{
+  margin:0;
+  background:#090a0f;
+  color:white;
+  min-height:100vh;
+}
+
+.container{
+  max-width:600px;
+  margin:auto;
+  padding:25px 20px 100px;
+}
+
+.top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.chat{
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  background:#202127;
+  border:1px solid #444;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:28px;
+}
+
+.logo{
+  text-align:center;
+  margin-top:80px;
+}
+
+.crown{
+  width:130px;
+  height:130px;
+  margin:auto;
+  border-radius:50%;
+  background:#f2c34f;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:65px;
+  box-shadow:0 0 35px #f2c34f55;
+}
+
+.logo h1{
+  font-size:28px;
+  margin-top:25px;
+}
+
+.card{
+  background:#1b1c23;
+  border:1px solid #30313a;
+  border-radius:25px;
+  padding:25px;
+  margin-top:30px;
+}
+
+.card h2{
+  margin-top:0;
+}
+
+button{
+  width:100%;
+  border:0;
+  border-radius:20px;
+  padding:18px;
+  background:#f2c34f;
+  color:#111;
+  font-size:18px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.features{
+  margin-top:30px;
+}
+
+.feature{
+  font-size:18px;
+  margin:18px 0;
+}
+
+.check{
+  color:#f2c34f;
+  margin-left:8px;
+}
+
+.nav{
+  position:fixed;
+  bottom:15px;
+  left:50%;
+  transform:translateX(-50%);
+  width:calc(100% - 30px);
+  max-width:570px;
+  background:#202127;
+  border:1px solid #3a3b44;
+  border-radius:30px;
+  padding:10px;
+  display:flex;
+  justify-content:space-around;
+}
+
+.nav div{
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+}
+
+.nav .active{
+  color:#f2c34f;
+}
+
+.nav span{
+  display:block;
+  font-size:25px;
+  margin-bottom:3px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="top">
+    <div class="chat">💬</div>
+    <h2>پڕۆ</h2>
+  </div>
+
+  <div class="logo">
+    <div class="crown">👑</div>
+    <h1>Kurd Keyboard پڕۆ</h1>
+  </div>
+
+  <div class="card">
+    <h2>پلانی بەخۆڕایی</h2>
+    <p>وەرگرتنی بەخۆڕایی سنووردارە</p>
+    <button onclick="alert('Kurd Keyboard Pro')">
+      وەردەکارییەکان
+    </button>
+  </div>
+
+  <div class="card features">
+    <h2>پڕۆ چی دەکاتەوە</h2>
+
+    <div class="feature">
+      <span class="check">✓</span>
+      وەرگرتنی بێ سنوور لە کیبۆرد و ئەپەکان
+    </div>
+
+    <div class="feature">
+      <span class="check">✓</span>
+      وەرگرتن بۆ زیاتر لە ١٣٠ زمان
+    </div>
+
+    <div class="feature">
+      <span class="check">✓</span>
+      نامە و هاتووەکان دەستبەجێ بخوێنێتەوە
+    </div>
+  </div>
+
+</div>
+
+<div class="nav">
+  <div>
+    <span>⚙️</span>
+    ڕێکخستنەکان
+  </div>
+
+  <div class="active">
+    <span>👑</span>
+    پڕۆ
+  </div>
+
+  <div>
+    <span>📊</span>
+    ئامار
+  </div>
+
+  <div>
+    <span>🎙️</span>
+    دەنگ
+  </div>
+
+  <div>
+    <span>🔤</span>
+    وەرگێڕان
+  </div>
+</div>
+
+</body>
+</html>
